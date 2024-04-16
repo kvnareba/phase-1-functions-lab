@@ -19,7 +19,6 @@ return blocks * feetPerBlock;
 function calculatesFarePrice(start, destination) {
 const feetPerBlock = 264;
 const distance = Math.abs(destination - start) * feetPerBlock;
-
 if (distance <= 400) {
   return 0;
 }
